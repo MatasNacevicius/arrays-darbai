@@ -78,20 +78,35 @@
 // console.log(array1)
 
 
-let skaiciai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let skaiciai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i < skaiciai.length; i++) {
-    if (skaiciai[i] % 2 === 0) {
-        skaiciai[i] = "lukas";
-    }
-}
-let keitykla = skaiciai.map(function(element) {
-    if (typeof element === 'string') {
-        return element.toUpperCase();
-    } else {
-        return element;
-    }
-});
+// for (let i = 0; i < skaiciai.length; i++) {
+//     if (skaiciai[i] % 2 === 0) {
+//         skaiciai[i] = "kastutis";
+//     }
+// }
+// let keitykla = skaiciai.map(function(element) {
+//     if (typeof element === 'string') {
+//         return element.toUpperCase();
+//     } else {
+//         return element;
+//     }
+// });
 
-console.log(keitykla);
+// console.log(keitykla);
 
+
+// let array = []
+// function gamykla(min, max) {
+//     return Math.random() * (max - min) + min;
+//   }
+// for (let i=1; i<=30; i++){
+//     array.push(Math.floor(gamykla(5,26)))
+// }
+// console.log(array)
+// let array1 = array.filter((sk) => sk>10)     
+// console.log(`yra ${array1.length} skaiciai didesni uz 10`)
+
+// let didziausias = Math.max(...array)
+// // let index = array.indexOf(didziausias)
+// console.log(`didziausias skaicius yra ${didziausias}`)
